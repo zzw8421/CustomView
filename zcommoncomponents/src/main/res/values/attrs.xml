@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ZCustomInputView">
+        <attr name="zTitle" format="string" />
+        <attr name="zContent" format="string" />
+        <attr name="zHint" format="string" />
+        <attr name="zIsRequired" format="boolean" />
+        <attr name="zInputGravity">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="zInputType">
+            <enum name="text" value="0" />
+            <enum name="number" value="1" />
+            <enum name="numberDecimal" value="2" />
+            <enum name="datetime" value="3" />
+            <enum name="passwd" value="4" />
+        </attr>
+        <attr name="zShowBottomLine" format="boolean" />
+        <attr name="zBottomLineColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ZCustomOutputView">
+        <attr name="zTitle" />
+        <attr name="zContent" />
+        <attr name="zIcon" />
+        <attr name="zShowBottomLine" />
+        <attr name="zBottomLineColor" />
+        <attr name="zOutputGravity">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ZCustomChooseView">
+        <attr name="zTitle" />
+        <attr name="zHint" />
+        <attr name="zIsRequired" />
+        <attr name="zInputGravity" />
+        <attr name="zShowBottomLine" />
+        <attr name="zBottomLineColor" />
+    </declare-styleable>
+
+    <declare-styleable name="ZRoundButton">
+        <attr name="zBackgroundColor" format="color" />
+        <attr name="zPressedColor" format="color" />
+        <attr name="zTextNormalColor" format="color" />
+        <attr name="zRadius" format="integer" />
+        <attr name="zTextPressedColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ZInputMultipleLineView">
+        <attr name="zTitle" />
+        <attr name="zHint" />
+        <attr name="zIsRequired" />
+        <attr name="zShowBottomLine" />
+        <attr name="zBottomLineColor" />
+        <attr name="zContent" />
+    </declare-styleable>
+
+    <declare-styleable name="ZChooseOptionView">
+        <attr name="zTitle" />
+        <attr name="zIsRequired" />
+        <attr name="zIsRadio" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ZFloatOpitionView">
+        <attr name="zTitle" />
+        <attr name="zIsRadio" />
+        <attr name="zNormalBgColor" format="color" />
+        <attr name="zNormalTextColor" format="color" />
+        <attr name="zSelectBgColor" format="color" />
+        <attr name="zSelectTextColor" format="color" />
+        <attr name="zItemRaduis" format="integer" />
+        <attr name="ZItemHeight" format="dimension" />
+        <attr name="ZTextSize" format="dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/lin_zinput_multiple_lines_img_isrequired"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@drawable/bitian"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/lin_zinput_multiple_lines_tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="事项名称"
+                android:textColor="#1A1E24"
+                android:textSize="@dimen/normal_font_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/lin_zinput_multiple_lines_ed_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:gravity="left"
+        android:minLines="4"
+        android:paddingBottom="10dp"
+        android:textSize="@dimen/normal_font_size" />
+
+    <View
+        android:id="@+id/lin_zinput_multiple_lines_view_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bgColor" />
+
+</LinearLayout>
